@@ -1,50 +1,19 @@
-# 🎓 AI Student Predictor
+# AI Student Predictor
 
-This is a simple Machine Learning project that predicts whether a student will PASS or FAIL based on:
+This project predicts whether a student will PASS or FAIL using machine learning.
 
-* 📚 Hours Studied
-* 🏫 Attendance
-* 📝 Assignments Completed
+## How to run
 
-## 🚀 How it Works
-
-The model is trained using student data and uses a classification algorithm to predict results.
-
-## 🛠️ Technologies Used
-
-* Python
-* Pandas
-* Scikit-learn
-
-## ▶️ How to Run
-
-```bash
 python main.py
-```
 
-## 📊 Example Output
+## Example
 
-```
-Enter hours studied: 3  
-Enter attendance: 74  
-Enter assignments completed: 4  
+Enter hours studied: 3
+Enter attendance: 74
+Enter assignments completed: 4
 
-Prediction: PASS ✅
-```
+Prediction: PASS
 
-## 📁 Files in Project
+## Screenshot
 
-* `main.py` → Main program
-* `student_data.csv` → Dataset
-* `README.md` → Project documentation
-
-## 💡 Future Improvements
-
-* Add GUI (Tkinter / Web App)
-* Use larger dataset
-* Deploy online
-
----
-
-✨ Created as a beginner AI project
 ![Output](output.png)
