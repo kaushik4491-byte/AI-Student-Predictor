@@ -35,6 +35,6 @@ prediction = model.predict(new_data)
 
 # Output result
 if prediction[0] == 1:
-    print("Prediction: PASS ✅")
+    print("Prediction: PASS ")
 else:
-    print("Prediction: FAIL ❌")
+    print("Prediction: FAIL ")
